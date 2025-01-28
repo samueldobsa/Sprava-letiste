@@ -15,16 +15,8 @@ public class CargoPlaneFlight extends AbstractAircraftFlight {
         return maxWeight;
     }
 
-    public void setMaxWeight(int maxWeight) {
-        this.maxWeight = maxWeight;
-    }
-
     public String getTypeOfCargo() {
         return typeOfCargo;
-    }
-
-    public void setTypeOfCargo(String typeOfCargo) {
-        this.typeOfCargo = typeOfCargo;
     }
 
     @Override

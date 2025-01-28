@@ -15,16 +15,8 @@ public class PassengerPlaneFlight extends AbstractAircraftFlight {
         return numberOfSeats;
     }
 
-    public void setNumberOfSeats(int numberOfSeats) {
-        this.numberOfSeats = numberOfSeats;
-    }
-
     public String getSeatType() {
         return seatType;
-    }
-
-    public void setSeatType(String seatType) {
-        this.seatType = seatType;
     }
 
     @Override
